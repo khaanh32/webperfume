@@ -14,6 +14,7 @@
         foreach($data as $key => $value){
             $statement -> bindParam($key,$value);
         }
+<<<<<<< HEAD
         $statement->execute();
         return $statement->fetchAll();
      }
@@ -47,5 +48,18 @@
         return $statement->execute();    
      }
 
+=======
+
+
+
+       
+        
+       
+                       
+       
+        $statement->execute();
+        return $statement->fetchAll();
+     }
+>>>>>>> c4e12e752c6bb4f777097e6cf527264fe0938c60
  }
 ?>
